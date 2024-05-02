@@ -1,6 +1,11 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  
+  color: #f4f7ca;
 }
 
 
+html, body{
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}

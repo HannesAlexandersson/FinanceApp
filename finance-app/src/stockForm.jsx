@@ -16,7 +16,7 @@ const StockForm = ({ onSubmit }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form className='form' onSubmit={handleSubmit}>
       <label htmlFor="stockName">Enter a stock name:</label>
       <input
         type="text"
