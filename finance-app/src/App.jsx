@@ -40,7 +40,11 @@ function App() {
         </div>
         </div>
       </div>
+      <div className='disclaimer'>
+        <p>Since the webscraper is using a asyncronios script the time between your submit and the result displaying can be rather long sometimes.</p>
       </div>
+      </div>
+
     </>
   );
 }
