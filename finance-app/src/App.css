@@ -50,3 +50,9 @@
     flex-direction: column;
     gap: 2rem;
 }
+.disclaimer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
