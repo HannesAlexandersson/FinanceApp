@@ -55,4 +55,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 2.5rem;
+}
+.disclaimer > p{
+    text-align: center;
 }
