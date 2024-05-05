@@ -34,7 +34,8 @@ server.use('/api/system/', systemRoutes);
 
 
 
-
 server.listen(port, () => {
     console.log(`Server is running on ${port}`);
 });
+
+module.exports = server;
