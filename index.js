@@ -22,8 +22,8 @@ const port = PORT;
 server.use(cors(corsOptions)); */
 server.use(cors());
 
-server.use(express.json({limit: '50mb'}));
-server.use(express.urlencoded({limit: '50mb'}))
+/* server.use(express.json({limit: '50mb'}));
+server.use(express.urlencoded({limit: '50mb'})) */
 server.use(express.json());
 /* server.use(bodyParser.urlencoded({ extended: false }));
 server.use(bodyParser.json()) */
