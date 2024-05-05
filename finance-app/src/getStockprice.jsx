@@ -1,6 +1,7 @@
 function get_stock_price( stockName ){
-    
-    const url = 'http://localhost:3000/api/system/getStockPrice';    
+    //http://localhost:3000/api/system/getStockPrice
+    //https://finance-app-five-neon.vercel.app/api/system/getStockPrice
+    const url = 'https://finance-app-five-neon.vercel.app/api/system/getStockPrice';    
    
     return fetch(url, { 
         method: 'POST',
