@@ -6,7 +6,7 @@
 
 function get_stock_price( stockName ){
   
-    const url = `https://restapi-9k9x.onrender.com/api/system/getStockPrice//${stockName}`;    
+    const url = `https://restapi-9k9x.onrender.com/api/system/getStockPrice/${stockName}`;    
    
     return fetch(url, { 
         method: 'GET',
