@@ -4,9 +4,9 @@ import express from 'express';
 
 const system = express.Router();
 
-system.get('/getStockPrice:stockName', async (req, res) => {
+system.post('/getStockPrice', async (req, res) => {
     try {
-        const stockName = req.params.stockName;
+        const stockName = req.body.stockName;
         const browser = await chromium.launch();
         const context = await browser.newContext({
             userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/109.0',
