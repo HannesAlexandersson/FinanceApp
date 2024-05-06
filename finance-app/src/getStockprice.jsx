@@ -3,7 +3,8 @@ function get_stock_price( stockName ){
     //https://restapi-two-pi.vercel.app/api/system/getStockPrice
     //http://localhost:3000/api/system/getStockPrice
     //https://finance-app-five-neon.vercel.app/api/system/getStockPrice
-    const url = 'https://restapi-two-pi.vercel.app/api/system/getStockPrice/';    
+    //https://restapi-9k9x.onrender.com/api/system/getStockPrice/
+    const url = 'https://restapi-9k9x.onrender.com/api/system/getStockPrice/';    
    
     return fetch(url, { 
         method: 'POST',
