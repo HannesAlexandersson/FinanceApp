@@ -31,11 +31,11 @@ server.use(bodyParser.json()) */
 server.use('/api/system/', systemRoutes);
 
 
+server.get('/', (req,res) => {
+  res.json('Success');
+  
+})
 
 
-
-server.listen(port, () => {
-    console.log(`Server is running on ${port}`);
-});
-
-module.exports = server;
+server.listen(port || 3000);
+console.log(`Server is running on ${port}`);
