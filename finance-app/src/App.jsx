@@ -42,7 +42,7 @@ function App() {
       </div>
       <div className='disclaimer'>
         <h5>Disclaimer:</h5>
-        <p>Since the webscraper is using a asyncronios script the time between your submit and the result displaying can be rather long sometimes.</p>
+        <p>Since the webscraper is using a asynchronous script the time between your submit and the result displaying can be rather long sometimes. Especially the first query. Give it some time and try a second time and it will work. Dont get me wrong it is still really long responsetime, but it works!</p>
       </div>
       </div>
 
